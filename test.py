@@ -6,5 +6,5 @@ class TestPower(unittest.TestCase):
         self.pow = Power()
     def test_add(self):
         # Test addition functionality
-        result = self.pow(3, 3)
+        result = self.pow(3, 2)
         self.assertEqual(result, 9)
