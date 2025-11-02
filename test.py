@@ -1,6 +1,6 @@
 import unittest
-
-class Test_Power(unittest.TestCase):
+from Power import Power
+class TestPower(unittest.TestCase):
     def setUp(self):
         # This method is run before each test, useful for setup code.
         self.pow = Power()
